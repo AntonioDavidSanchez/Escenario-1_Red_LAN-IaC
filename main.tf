@@ -42,7 +42,7 @@ module "windows_11" {
   source = "./modules/vm"
 
   vm_name        = "WindowsOS11"
-  vm_description = "Windows 11"
+  vm_description = "Windows 11 con Wazuh Agent"
   node_name      = "kvm1"
   vm_id          = 851
   vm_tags        = ["WindowsOS11"]
