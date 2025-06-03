@@ -25,7 +25,7 @@ module "ubuntu_server_1" {
 module "ubuntu_server_2" {
   source = "./modules/vm"
 
-  vm_name        = "UbuntuServer1"
+  vm_name        = "UbuntuServerAgente"
   vm_description = "Ubuntu Server con Wazuh Agent"
   node_name      = "kvm1"
   vm_id          = 852
