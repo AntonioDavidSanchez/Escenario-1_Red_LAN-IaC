@@ -1,3 +1,5 @@
+# modules/vm/main.tf
+
 terraform {
   required_providers {
     proxmox = {
@@ -7,7 +9,6 @@ terraform {
   }
 }
 
-# modules/vm/main.tf
 resource "proxmox_virtual_environment_vm" "vm" {
   name        = var.vm_name
   description = var.vm_description
