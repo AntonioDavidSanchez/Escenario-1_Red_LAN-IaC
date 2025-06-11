@@ -1,4 +1,4 @@
-﻿# En este archivo se almacenan las variables de carácter confidencial
+﻿# terraform.tfvars
 
 proxmox_endpoint = "https://IP_Proxmox:8006"
 proxmox_api_token = "Token_asociado_al_usuario"
