@@ -1,5 +1,4 @@
-
-# Variables que estarán presentes en "terraform.tfvars"
+# vars.tf
 
 variable "proxmox_api_token" {}
 
