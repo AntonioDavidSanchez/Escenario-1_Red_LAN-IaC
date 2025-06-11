@@ -1,4 +1,5 @@
 # modules/vm/vars.tf
+
 variable "vm_name" {}
 
 variable "vm_description" {}
