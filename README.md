@@ -6,4 +6,4 @@ Mediante estos archivos es posible hacer un despliegue del siguiente escenario e
 
 ![Escenario con 1 red LAN](Escenario-1LAN.png)
 
-Este cuenta con una red LAN y sobre el mismo, se instala el SIEM Wazuh (servidor, indexador, dashboard, agentes...) mediante conexiones SSH desde Terraform a las máquinas virtuales, una vez ya desplegadas. Cabe destacar que, la creación de las máquinas se realiza a partir de plantillas preconfiguradas.
+Este cuenta con una red LAN y sobre el mismo, se implementa el SIEM Wazuh (servidor, indexador, dashboard, agentes...) mediante conexiones SSH desde Terraform a las máquinas virtuales, una vez ya desplegadas. Cabe destacar que, la creación de las máquinas se realiza a partir de plantillas preconfiguradas.
